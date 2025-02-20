@@ -103,7 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
 function markAsWatched(button) {
     const card = button.closest('.card');
     card.classList.toggle('watched');
